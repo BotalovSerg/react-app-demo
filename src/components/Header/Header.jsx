@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../logo.svg";
+import "./Header.css"
 
 export default function Header() {
   const [now, setNow] = useState(new Date());
@@ -7,7 +7,6 @@ export default function Header() {
 
   return (
     <header className="App-header">
-      <img className="App-logo" src={logo} alt="Image" />
       <h3>My site</h3>      
       <span>Time now: {now.toLocaleTimeString()}</span>
     </header>

@@ -1,0 +1,8 @@
+.App-header {
+    height: 50px;
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #976868;
+    background: #eec7c7;
+  }
